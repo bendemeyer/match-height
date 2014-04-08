@@ -27,8 +27,10 @@
 		};
 		
 		
-		//testing for Media Queries based on implementation of Modernizr's 'mq' method
-		//http://modernizr.com/docs/#mq
+		// testing for Media Queries based on implementation of Modernizr's 'mq' method
+		// Copyright (c) Faruk Ates, Paul Irish, Alex Sexton
+		// Available under the BSD and MIT licenses: www.modernizr.com/license/
+		// http://modernizr.com/docs/#mq
 		function testMediaQuery(mq) {
 
 			var matchMedia = window.matchMedia || window.msMatchMedia;
