@@ -26,6 +26,9 @@
 			}
 		};
 		
+		
+		//testing for Media Queries based on implementation of Modernizr's 'mq' method
+		//http://modernizr.com/docs/#mq
 		function testMediaQuery(mq) {
 
 			var matchMedia = window.matchMedia || window.msMatchMedia;
@@ -56,7 +59,7 @@
 			$(window).off('resize.matchheight:' + curr);
 		};
 		
-		match(arg);
+		match();
 		
 		return this;
 	};
